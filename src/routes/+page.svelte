@@ -27,41 +27,41 @@
 	}
 </script>
 
-<div class="min-h-screen flex flex-col font-sans text-gray-900 bg-[#FAFAFA]">
+<div class="min-h-screen flex flex-col font-sans text-white bg-black">
 	<!-- Top Banner -->
-	<div class="bg-black text-white text-[11px] font-medium py-3 text-center tracking-wide px-4">
+	<div class="bg-white text-black text-[11px] font-medium py-3 text-center tracking-wide px-4">
 		Start your mobility journey today — First month free with code MOVE30
 	</div>
 
 	<!-- Navigation -->
-	<nav class="flex items-center justify-between px-6 md:px-12 py-5 bg-[#FAFAFA]">
+	<nav class="flex items-center justify-between px-6 md:px-12 py-5 bg-black border-b border-[#1F1F1F]">
 		<div class="flex items-center gap-2">
 			<!-- Logo -->
 			<div class="flex items-center gap-3">
 				<svg width="40" height="16" viewBox="0 0 1787 726" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M1059 726H0L195.537 531H1254.54L1059 726ZM1326.74 459H267.735L463.272 264H1522.27L1326.74 459ZM1591.46 195H532.463L728 0H1787L1591.46 195Z" fill="black"/>
+					<path d="M1059 726H0L195.537 531H1254.54L1059 726ZM1326.74 459H267.735L463.272 264H1522.27L1326.74 459ZM1591.46 195H532.463L728 0H1787L1591.46 195Z" fill="white"/>
 				</svg>
-				<span class="text-xl font-bold tracking-tight">Stretch AI</span>
+				<span class="text-xl font-bold tracking-tight text-white">Stretch AI</span>
 			</div>
 		</div>
-		<div class="hidden md:flex items-center gap-8 text-[13px] font-medium text-gray-600">
-			<a href="#" class="hover:text-black transition-colors">Programs</a>
-			<a href="#" class="hover:text-black transition-colors">Science</a>
-			<a href="#" class="hover:text-black transition-colors">Pricing</a>
-			<a href="#" class="hover:text-black transition-colors">FAQ</a>
-			<a href="#" class="bg-black text-white px-5 py-2 rounded text-[13px] font-medium hover:bg-gray-800 transition-colors">Start free trial</a>
+		<div class="hidden md:flex items-center gap-8 text-[13px] font-medium text-gray-400">
+			<a href="#" class="hover:text-white transition-colors">Programs</a>
+			<a href="#" class="hover:text-white transition-colors">Science</a>
+			<a href="#" class="hover:text-white transition-colors">Pricing</a>
+			<a href="#" class="hover:text-white transition-colors">FAQ</a>
+			<a href="#" class="bg-white text-black px-5 py-2 rounded text-[13px] font-medium hover:bg-gray-200 transition-colors">Start free trial</a>
 		</div>
 	</nav>
 
 	<!-- Hero Section -->
-	<section class="flex flex-col items-center pt-16 pb-20 px-4 text-center">
-		<h1 class="text-4xl md:text-[56px] leading-[1.1] font-medium tracking-tight max-w-3xl mb-6">
+	<section class="flex flex-col items-center pt-16 pb-20 px-4 text-center bg-black">
+		<h1 class="text-4xl md:text-[56px] leading-[1.1] font-medium tracking-tight max-w-3xl mb-6 text-white">
 			Move better.<br>Perform longer.
 		</h1>
-		<p class="text-gray-500 text-[15px] max-w-xl mb-8 leading-relaxed">
+		<p class="text-gray-400 text-[15px] max-w-xl mb-8 leading-relaxed">
 			Expert-led mobility and stretching programs designed for athletes, trainers, and anyone serious about longevity. Science-backed protocols that actually work.
 		</p>
-		<button class="bg-black text-white px-6 py-3 rounded text-[13px] font-medium hover:bg-gray-800 transition-colors mb-20">
+		<button class="bg-white text-black px-6 py-3 rounded text-[13px] font-medium hover:bg-gray-200 transition-colors mb-20">
 			Start your free trial
 		</button>
 
@@ -97,8 +97,8 @@
 	</section>
 
 	<!-- App Showcase -->
-	<section class="py-24 px-6 md:px-12 flex justify-center">
-		<div class="bg-white rounded-[32px] p-12 md:p-20 flex flex-col md:flex-row items-center gap-16 max-w-[1200px] w-full shadow-sm">
+	<section class="py-24 px-6 md:px-12 flex justify-center bg-black">
+		<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-12 md:p-20 flex flex-col md:flex-row items-center gap-16 max-w-[1200px] w-full">
 			<!-- Phone Mockup -->
 			<div class="relative w-[280px] h-[580px] bg-black rounded-[40px] p-3 shadow-2xl flex-shrink-0 border-4 border-gray-100">
 				<div class="w-full h-full bg-white rounded-[32px] overflow-hidden relative">
@@ -149,7 +149,7 @@
 
 			<!-- Content -->
 			<div class="flex-1 max-w-lg">
-				<h2 class="text-3xl font-medium mb-6 leading-tight">
+				<h2 class="text-3xl font-medium mb-6 leading-tight text-white">
 					Your mobility journey, simplified.<br>
 					Follow expert-designed protocols, track your progress,
 					and see measurable improvements in range of motion.
@@ -157,15 +157,15 @@
 					and built to help you move better for life.
 				</h2>
 				<div class="flex items-center justify-between mt-12">
-					<a href="#" class="flex items-center gap-2 text-primary-600 text-sm font-medium hover:underline">
+					<a href="#" class="flex items-center gap-2 text-primary-400 text-sm font-medium hover:underline">
 						{@html PlayCircle}
 						Watch demo
 					</a>
 					<div class="flex gap-4">
-						<button class="w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 hover:bg-gray-50 transition-colors">
+						<button class="w-8 h-8 flex items-center justify-center rounded-full border border-[#1F1F1F] hover:bg-[#1F1F1F] transition-colors">
 							{@html ChevronLeft}
 						</button>
-						<button class="w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 hover:bg-gray-50 transition-colors">
+						<button class="w-8 h-8 flex items-center justify-center rounded-full border border-[#1F1F1F] hover:bg-[#1F1F1F] transition-colors">
 							{@html ChevronRight}
 						</button>
 					</div>
@@ -175,12 +175,12 @@
 	</section>
 
 	<!-- Lifestyle Grid -->
-	<section class="py-20 px-6 md:px-12 max-w-[1400px] mx-auto w-full">
+	<section class="py-20 px-6 md:px-12 max-w-[1400px] mx-auto w-full bg-black">
 		<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-10">
-			<h2 class="text-4xl md:text-5xl font-medium tracking-tight max-w-md leading-[1.1]">
+			<h2 class="text-4xl md:text-5xl font-medium tracking-tight max-w-md leading-[1.1] text-white">
 				Built for those who take performance seriously.
 			</h2>
-			<p class="text-gray-500 text-[15px] max-w-md leading-relaxed">
+			<p class="text-gray-400 text-[15px] max-w-md leading-relaxed">
 				Whether you're an athlete, trainer, or fitness enthusiast, mobility is the foundation of longevity. Stretch AI gives you the structure, expertise, and consistency you need to move better, prevent injury, and perform at your peak.
 			</p>
 		</div>
@@ -214,46 +214,46 @@
 	</section>
 
 	<!-- Testimonial -->
-	<section class="py-24 px-6 text-center bg-[#F5F5F3]">
+	<section class="py-24 px-6 text-center bg-[#0A0A0A] border-y border-[#1F1F1F]">
 		<div class="max-w-3xl mx-auto">
-			<blockquote class="text-2xl md:text-3xl font-medium leading-tight mb-10">
+			<blockquote class="text-2xl md:text-3xl font-medium leading-tight mb-10 text-white">
 				"Stretch AI is what I've been recommending to my athletes for years—structured, evidence-based mobility work that actually delivers results. The protocols are clinically sound, and the platform makes it simple to stay consistent. This is the real deal."
 			</blockquote>
 			<div class="flex flex-col items-center gap-3">
 				<img src="/generated/image-professional-physical-therapist-or-sport-1766105508492-9.webp" alt="Physical Therapist" class="w-12 h-12 rounded-full object-cover" />
 				<div class="text-sm">
-					<div class="font-bold">Dr. Marcus Chen, DPT</div>
-					<div class="text-gray-500">Sports Physical Therapist</div>
+					<div class="font-bold text-white">Dr. Marcus Chen, DPT</div>
+					<div class="text-gray-400">Sports Physical Therapist</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Process Steps -->
-	<section class="py-20 px-6 md:px-12 max-w-[1400px] mx-auto w-full border-b border-gray-200">
+	<section class="py-20 px-6 md:px-12 max-w-[1400px] mx-auto w-full border-b border-[#1F1F1F] bg-black">
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
 			<div>
-				<h3 class="text-xl font-medium mb-2">Sign up in 2 minutes.</h3>
-				<p class="text-sm text-gray-500 leading-relaxed">Create your account, answer a few questions about your goals, and get instant access to all programs.</p>
+				<h3 class="text-xl font-medium mb-2 text-white">Sign up in 2 minutes.</h3>
+				<p class="text-sm text-gray-400 leading-relaxed">Create your account, answer a few questions about your goals, and get instant access to all programs.</p>
 			</div>
 			<div>
-				<h3 class="text-xl font-medium mb-2">Start your first session.</h3>
-				<p class="text-sm text-gray-500 leading-relaxed">Follow expert-guided protocols designed for your level. Each session is clear, structured, and effective.</p>
+				<h3 class="text-xl font-medium mb-2 text-white">Start your first session.</h3>
+				<p class="text-sm text-gray-400 leading-relaxed">Follow expert-guided protocols designed for your level. Each session is clear, structured, and effective.</p>
 			</div>
 			<div>
-				<h3 class="text-xl font-medium mb-2">Track your progress.</h3>
-				<p class="text-sm text-gray-500 leading-relaxed">See measurable improvements in mobility and range of motion. Build consistency that lasts.</p>
+				<h3 class="text-xl font-medium mb-2 text-white">Track your progress.</h3>
+				<p class="text-sm text-gray-400 leading-relaxed">See measurable improvements in mobility and range of motion. Build consistency that lasts.</p>
 			</div>
 		</div>
 	</section>
 
 	<!-- How it works -->
-	<section class="py-24 px-6 md:px-12 max-w-[1400px] mx-auto w-full">
+	<section class="py-24 px-6 md:px-12 max-w-[1400px] mx-auto w-full bg-black">
 		<div class="flex flex-col lg:flex-row gap-20">
 			<!-- Sticky Title -->
 			<div class="lg:w-1/3 lg:sticky lg:top-24 h-fit">
-				<h2 class="text-4xl font-medium mb-6">How it works.</h2>
-				<p class="text-gray-500 text-[15px] leading-relaxed max-w-xs">
+				<h2 class="text-4xl font-medium mb-6 text-white">How it works.</h2>
+				<p class="text-gray-400 text-[15px] leading-relaxed max-w-xs">
 					Stretch AI combines expert-designed protocols with intelligent tracking to deliver a complete mobility system. No guesswork, no generic routines—just proven methods that help you move better.
 				</p>
 			</div>
@@ -261,11 +261,11 @@
 			<!-- Steps List -->
 			<div class="lg:w-2/3 flex flex-col gap-8">
 				<!-- Step 1 -->
-				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
+				<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center">
 					<div class="w-full max-w-md mb-10 text-left self-start">
-						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">1</div>
-						<h3 class="text-2xl font-medium mb-3">Choose your program.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Select from targeted programs for different goals—whether you're focused on recovery, performance, or injury prevention. All programs are designed by experts.</p>
+						<div class="w-8 h-8 rounded border border-[#1F1F1F] flex items-center justify-center text-xs font-medium mb-6 text-white">1</div>
+						<h3 class="text-2xl font-medium mb-3 text-white">Choose your program.</h3>
+						<p class="text-sm text-gray-400 leading-relaxed">Select from targeted programs for different goals—whether you're focused on recovery, performance, or injury prevention. All programs are designed by experts.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
 						<div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col">
@@ -292,11 +292,11 @@
 				</div>
 
 				<!-- Step 2 -->
-				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
+				<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center">
 					<div class="w-full max-w-md mb-10 text-left self-start">
-						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">2</div>
-						<h3 class="text-2xl font-medium mb-3">Follow guided sessions.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Each session provides clear video instruction and real-time guidance. Know exactly what to do, how long to hold, and when to progress.</p>
+						<div class="w-8 h-8 rounded border border-[#1F1F1F] flex items-center justify-center text-xs font-medium mb-6 text-white">2</div>
+						<h3 class="text-2xl font-medium mb-3 text-white">Follow guided sessions.</h3>
+						<p class="text-sm text-gray-400 leading-relaxed">Each session provides clear video instruction and real-time guidance. Know exactly what to do, how long to hold, and when to progress.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col items-center pt-8">
@@ -314,11 +314,11 @@
 				</div>
 
 				<!-- Step 3 -->
-				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
+				<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center">
 					<div class="w-full max-w-md mb-10 text-left self-start">
-						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">3</div>
-						<h3 class="text-2xl font-medium mb-3">Track your improvements.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">See measurable progress in range of motion and mobility scores. The platform tracks your consistency and shows how you're improving over time.</p>
+						<div class="w-8 h-8 rounded border border-[#1F1F1F] flex items-center justify-center text-xs font-medium mb-6 text-white">3</div>
+						<h3 class="text-2xl font-medium mb-3 text-white">Track your improvements.</h3>
+						<p class="text-sm text-gray-400 leading-relaxed">See measurable progress in range of motion and mobility scores. The platform tracks your consistency and shows how you're improving over time.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-gray-900 rounded-[28px] overflow-hidden relative text-white p-6 pt-10">
@@ -354,11 +354,11 @@
 				</div>
 
 				<!-- Step 4 -->
-				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
+				<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center">
 					<div class="w-full max-w-md mb-10 text-left self-start">
-						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">4</div>
-						<h3 class="text-2xl font-medium mb-3">Get personalized insights.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Receive expert guidance on areas to focus on, modifications for your body, and recommendations to accelerate your progress.</p>
+						<div class="w-8 h-8 rounded border border-[#1F1F1F] flex items-center justify-center text-xs font-medium mb-6 text-white">4</div>
+						<h3 class="text-2xl font-medium mb-3 text-white">Get personalized insights.</h3>
+						<p class="text-sm text-gray-400 leading-relaxed">Receive expert guidance on areas to focus on, modifications for your body, and recommendations to accelerate your progress.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col pt-8 px-4">
@@ -373,11 +373,11 @@
 				</div>
 
 				<!-- Step 5 -->
-				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
+				<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center">
 					<div class="w-full max-w-md mb-10 text-left self-start">
-						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">5</div>
-						<h3 class="text-2xl font-medium mb-3">Build lasting habits.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Consistency is key. The platform helps you build a sustainable mobility practice that becomes part of your routine, not another thing to stress about.</p>
+						<div class="w-8 h-8 rounded border border-[#1F1F1F] flex items-center justify-center text-xs font-medium mb-6 text-white">5</div>
+						<h3 class="text-2xl font-medium mb-3 text-white">Build lasting habits.</h3>
+						<p class="text-sm text-gray-400 leading-relaxed">Consistency is key. The platform helps you build a sustainable mobility practice that becomes part of your routine, not another thing to stress about.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col pt-8 px-4">
@@ -395,16 +395,16 @@
 	</section>
 
 	<!-- Dark Cards Section -->
-	<section class="py-10 px-6 md:px-12 max-w-[1400px] mx-auto w-full">
+	<section class="py-10 px-6 md:px-12 max-w-[1400px] mx-auto w-full bg-black">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 			<!-- Left Card -->
-			<div class="bg-[#111] rounded-[32px] p-10 md:p-12 text-white min-h-[400px] flex flex-col relative overflow-hidden">
+			<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-12 text-white min-h-[400px] flex flex-col relative overflow-hidden">
 				<div class="relative z-10">
-					<div class="text-xs text-gray-400 mb-2">Evidence-based approach.</div>
+					<div class="text-xs text-gray-500 mb-2">Evidence-based approach.</div>
 					<h3 class="text-2xl font-medium max-w-xs">Designed by sports scientists and physical therapists.</h3>
 				</div>
 				<!-- Abstract mobility graphic -->
-				<div class="absolute bottom-0 right-0 w-full h-64 opacity-20">
+				<div class="absolute bottom-0 right-0 w-full h-64 opacity-10">
                     <svg viewBox="0 0 200 100" class="w-full h-full">
                         <path d="M20,80 Q50,20 80,50 T140,40" stroke="white" stroke-width="2" fill="none" />
                         <path d="M30,70 Q60,30 90,60 T150,50" stroke="white" stroke-width="2" fill="none" />
@@ -414,13 +414,13 @@
 				</div>
 			</div>
 			<!-- Right Card -->
-			<div class="bg-[#111] rounded-[32px] p-10 md:p-12 text-white min-h-[400px] flex flex-col relative overflow-hidden">
+			<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-10 md:p-12 text-white min-h-[400px] flex flex-col relative overflow-hidden">
 				<div class="relative z-10">
-					<div class="text-xs text-gray-400 mb-2">Your data is secure.</div>
+					<div class="text-xs text-gray-500 mb-2">Your data is secure.</div>
 					<h3 class="text-2xl font-medium max-w-xs">Privacy-first platform built for professionals.</h3>
 				</div>
 				<!-- Encrypted data visual -->
-				<div class="absolute bottom-8 right-8 text-right font-mono text-3xl opacity-30 blur-[2px] select-none pointer-events-none">
+				<div class="absolute bottom-8 right-8 text-right font-mono text-3xl opacity-20 blur-[2px] select-none pointer-events-none">
 					<div>Progr|%s$9yT</div>
 					<div>Mobil|I7y/@</div>
 					<div>Range|&5a!</div>
@@ -431,90 +431,90 @@
 	</section>
 
 	<!-- Pricing Section -->
-	<section class="py-24 px-6 md:px-12 max-w-[1400px] mx-auto w-full text-center">
-		<h2 class="text-3xl md:text-4xl font-medium mb-4">Invest in your mobility.</h2>
-		<p class="text-gray-500 text-sm max-w-lg mx-auto mb-16">
+	<section class="py-24 px-6 md:px-12 max-w-[1400px] mx-auto w-full text-center bg-black">
+		<h2 class="text-3xl md:text-4xl font-medium mb-4 text-white">Invest in your mobility.</h2>
+		<p class="text-gray-400 text-sm max-w-lg mx-auto mb-16">
 			Expert-designed programs, intelligent tracking, and personalized guidance—all in one platform. Choose the plan that fits your goals.
 		</p>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
 			<!-- Monthly Plan -->
-			<div class="bg-white rounded-[32px] p-8 text-left flex flex-col shadow-sm">
-				<div class="w-10 h-10 bg-gray-100 rounded-lg mb-6"></div>
-				<h3 class="text-xl font-bold mb-1">Monthly</h3>
-				<p class="text-xs text-gray-500 mb-6">Try it out, cancel anytime.</p>
+			<div class="bg-[#0A0A0A] border border-[#1F1F1F] rounded-[32px] p-8 text-left flex flex-col">
+				<div class="w-10 h-10 bg-[#1F1F1F] rounded-lg mb-6"></div>
+				<h3 class="text-xl font-bold mb-1 text-white">Monthly</h3>
+				<p class="text-xs text-gray-400 mb-6">Try it out, cancel anytime.</p>
 				
 				<div class="flex items-baseline gap-1 mb-1">
-					<span class="text-2xl font-bold">$29</span>
+					<span class="text-2xl font-bold text-white">$29</span>
 					<span class="text-xs text-gray-500">/month</span>
 				</div>
-				<div class="text-[10px] text-gray-400 mb-8">First month free with code MOVE30</div>
+				<div class="text-[10px] text-gray-500 mb-8">First month free with code MOVE30</div>
 
 				<ul class="space-y-4 mb-8 flex-1">
-					<li class="flex gap-3 text-xs text-gray-600">
+					<li class="flex gap-3 text-xs text-gray-400">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
 						Access to all mobility and stretching programs
 					</li>
-					<li class="flex gap-3 text-xs text-gray-600">
+					<li class="flex gap-3 text-xs text-gray-400">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
 						Progress tracking and mobility assessments
 					</li>
-					<li class="flex gap-3 text-xs text-gray-600">
+					<li class="flex gap-3 text-xs text-gray-400">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
 						Expert video instruction for every movement
 					</li>
 				</ul>
 
-				<button class="w-full bg-black text-white py-3 rounded-lg text-xs font-bold hover:bg-gray-800 transition-colors">Start free trial</button>
+				<button class="w-full bg-white text-black py-3 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">Start free trial</button>
 			</div>
 
 			<!-- Annual Plan -->
-			<div class="bg-white rounded-[32px] p-8 text-left flex flex-col shadow-sm border-2 border-primary-100 relative overflow-hidden">
-                <div class="absolute top-0 right-0 bg-primary-100 text-primary-700 text-[10px] font-bold px-3 py-1 rounded-bl-xl">BEST VALUE</div>
-				<div class="w-10 h-10 bg-primary-50 rounded-lg mb-6"></div>
-				<h3 class="text-xl font-bold mb-1">Annual</h3>
-				<p class="text-xs text-gray-500 mb-6">Save 40% with annual billing.</p>
+			<div class="bg-[#0A0A0A] border-2 border-primary-500 rounded-[32px] p-8 text-left flex flex-col relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-primary-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl">BEST VALUE</div>
+				<div class="w-10 h-10 bg-primary-500/20 rounded-lg mb-6"></div>
+				<h3 class="text-xl font-bold mb-1 text-white">Annual</h3>
+				<p class="text-xs text-gray-400 mb-6">Save 40% with annual billing.</p>
 				
 				<div class="flex items-baseline gap-1 mb-1">
-					<span class="text-2xl font-bold">$199</span>
+					<span class="text-2xl font-bold text-white">$199</span>
 					<span class="text-xs text-gray-500">/year</span>
 				</div>
-				<div class="text-[10px] text-gray-400 mb-8">Just $16.58/month — save $149 annually</div>
+				<div class="text-[10px] text-gray-500 mb-8">Just $16.58/month — save $149 annually</div>
 
 				<ul class="space-y-4 mb-8 flex-1">
-					<li class="flex gap-3 text-xs text-gray-600">
+					<li class="flex gap-3 text-xs text-gray-400">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
 						Everything in Monthly, plus priority support
 					</li>
-					<li class="flex gap-3 text-xs text-gray-600">
+					<li class="flex gap-3 text-xs text-gray-400">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
 						Early access to new programs and features
 					</li>
-					<li class="flex gap-3 text-xs text-gray-600">
+					<li class="flex gap-3 text-xs text-gray-400">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
 						Personalized program recommendations and insights
 					</li>
 				</ul>
 
-				<button class="w-full bg-black text-white py-3 rounded-lg text-xs font-bold hover:bg-gray-800 transition-colors">Start free trial</button>
+				<button class="w-full bg-white text-black py-3 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">Start free trial</button>
 			</div>
 		</div>
 	</section>
 
 	<!-- FAQ Section -->
-	<section class="py-20 px-6 md:px-12 max-w-3xl mx-auto w-full">
-		<h2 class="text-3xl font-medium text-center mb-16">Your questions answered.</h2>
+	<section class="py-20 px-6 md:px-12 max-w-3xl mx-auto w-full bg-black">
+		<h2 class="text-3xl font-medium text-center mb-16 text-white">Your questions answered.</h2>
 		<div class="space-y-4">
 			{#each faqs as faq, i}
 				<button 
-					class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-100 rounded-lg transition-colors group"
+					class="w-full flex items-center justify-between p-4 text-left hover:bg-[#0A0A0A] rounded-lg transition-colors group border border-[#1F1F1F]"
 					onclick={() => toggleFaq(i)}
 				>
-					<span class="text-sm font-medium text-gray-800">{faq.question}</span>
-					<span class="text-gray-400 transition-transform duration-200 {faq.open ? 'rotate-45' : ''}">{@html Plus}</span>
+					<span class="text-sm font-medium text-white">{faq.question}</span>
+					<span class="text-gray-500 transition-transform duration-200 {faq.open ? 'rotate-45' : ''}">{@html Plus}</span>
 				</button>
                 {#if faq.open}
-                    <div class="px-4 pb-4 text-xs text-gray-500 leading-relaxed">
+                    <div class="px-4 pb-4 text-xs text-gray-400 leading-relaxed">
                         {#if i === 0}
                             Stretch AI combines expert-designed protocols with intelligent tracking and personalized guidance. Unlike generic stretching apps, our programs are created by sports scientists and physical therapists, backed by research, and structured to deliver measurable results.
                         {:else if i === 1}
@@ -531,38 +531,38 @@
 			{/each}
 		</div>
 		<div class="text-center mt-12">
-			<button class="bg-white border border-gray-200 px-6 py-3 rounded text-xs font-medium hover:bg-gray-50 transition-colors">
+			<button class="bg-[#0A0A0A] border border-[#1F1F1F] px-6 py-3 rounded text-xs font-medium hover:bg-[#1F1F1F] transition-colors text-white">
 				View all Frequently Asked Questions
 			</button>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<footer class="bg-[#F5F5F3] py-16 px-6 md:px-12 text-[11px] text-gray-500">
+	<footer class="bg-[#0A0A0A] border-t border-[#1F1F1F] py-16 px-6 md:px-12 text-[11px] text-gray-500">
 		<div class="max-w-[1400px] mx-auto">
 			<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-8">
 				<div class="flex items-center gap-3">
 					<svg width="40" height="16" viewBox="0 0 1787 726" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M1059 726H0L195.537 531H1254.54L1059 726ZM1326.74 459H267.735L463.272 264H1522.27L1326.74 459ZM1591.46 195H532.463L728 0H1787L1591.46 195Z" fill="black"/>
+						<path d="M1059 726H0L195.537 531H1254.54L1059 726ZM1326.74 459H267.735L463.272 264H1522.27L1326.74 459ZM1591.46 195H532.463L728 0H1787L1591.46 195Z" fill="white"/>
 					</svg>
-					<span class="text-lg font-bold tracking-tight text-black">Stretch AI</span>
+					<span class="text-lg font-bold tracking-tight text-white">Stretch AI</span>
 				</div>
-				<div class="flex flex-wrap gap-6 font-medium text-gray-600">
-					<a href="#" class="hover:text-black">Programs</a>
-					<a href="#" class="hover:text-black">Science</a>
-					<a href="#" class="hover:text-black">Pricing</a>
-					<a href="#" class="hover:text-black">FAQ</a>
-					<a href="#" class="hover:text-black">Terms & Conditions</a>
-					<a href="#" class="hover:text-black">Privacy Policy</a>
+				<div class="flex flex-wrap gap-6 font-medium text-gray-500">
+					<a href="#" class="hover:text-white">Programs</a>
+					<a href="#" class="hover:text-white">Science</a>
+					<a href="#" class="hover:text-white">Pricing</a>
+					<a href="#" class="hover:text-white">FAQ</a>
+					<a href="#" class="hover:text-white">Terms & Conditions</a>
+					<a href="#" class="hover:text-white">Privacy Policy</a>
 				</div>
 				<div class="flex gap-4">
-					<a href="#" class="text-black hover:text-gray-600">{@html XIcon}</a>
-					<a href="#" class="text-black hover:text-gray-600">{@html Instagram}</a>
-					<a href="#" class="text-black hover:text-gray-600">{@html Linkedin}</a>
+					<a href="#" class="text-gray-400 hover:text-white">{@html XIcon}</a>
+					<a href="#" class="text-gray-400 hover:text-white">{@html Instagram}</a>
+					<a href="#" class="text-gray-400 hover:text-white">{@html Linkedin}</a>
 				</div>
 			</div>
 			
-			<div class="space-y-4 leading-relaxed opacity-60">
+			<div class="space-y-4 leading-relaxed opacity-60 text-gray-500">
 				<p>Stretch AI is a digital platform providing mobility and stretching guidance. Our programs are designed by qualified professionals but do not constitute medical advice, diagnosis, or treatment. Always consult with a healthcare provider before starting any new exercise program, especially if you have existing injuries or medical conditions.</p>
 				<p>Results may vary based on individual commitment, consistency, and physical condition. The testimonials and progress examples shown represent individual experiences and are not guarantees of specific results.</p>
 				<p>By subscribing, you agree to our Terms & Conditions and Privacy Policy. You can cancel your subscription at any time. Message and data rates may apply for SMS notifications.</p>
