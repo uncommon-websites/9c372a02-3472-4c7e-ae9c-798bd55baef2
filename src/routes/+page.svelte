@@ -12,11 +12,11 @@
 	const XIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 18 18"/></svg>`;
 
 	let faqs = [
-		{ question: "What does a Holo membership include?", open: false },
-		{ question: "Is Holo for you?", open: false },
-		{ question: "What more does Holo offer than my regular doctor or insurance?", open: false },
-		{ question: "I recently got tested. Should I wait to join Holo?", open: false },
-		{ question: "Which biomarkers are included in the Holo membership?", open: false }
+		{ question: "What makes Stretch AI different from other stretching apps?", open: false },
+		{ question: "Do I need any equipment to use Stretch AI?", open: false },
+		{ question: "How long are the typical sessions?", open: false },
+		{ question: "Is Stretch AI suitable for beginners?", open: false },
+		{ question: "Can I use Stretch AI if I have an injury?", open: false }
 	];
 
 	function toggleFaq(index: number) {
@@ -30,42 +30,39 @@
 <div class="min-h-screen flex flex-col font-sans text-gray-900 bg-[#FAFAFA]">
 	<!-- Top Banner -->
 	<div class="bg-black text-white text-[11px] font-medium py-3 text-center tracking-wide px-4">
-		15% off for yourself or for someone you care about with the code GIFT15 until December 31.
+		Start your mobility journey today — First month free with code MOVE30
 	</div>
 
 	<!-- Navigation -->
 	<nav class="flex items-center justify-between px-6 md:px-12 py-5 bg-[#FAFAFA]">
 		<div class="flex items-center gap-2">
 			<!-- Logo -->
-			<div class="flex items-center gap-2">
-				<div class="grid grid-cols-2 gap-[2px]">
-					<div class="w-1 h-1 bg-black rounded-full"></div>
-					<div class="w-1 h-1 bg-black rounded-full"></div>
-					<div class="w-1 h-1 bg-black rounded-full"></div>
-					<div class="w-1 h-1 bg-black rounded-full"></div>
-				</div>
-				<span class="text-xl font-bold tracking-tight">HOLO</span>
+			<div class="flex items-center gap-3">
+				<svg width="40" height="16" viewBox="0 0 1787 726" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1059 726H0L195.537 531H1254.54L1059 726ZM1326.74 459H267.735L463.272 264H1522.27L1326.74 459ZM1591.46 195H532.463L728 0H1787L1591.46 195Z" fill="black"/>
+				</svg>
+				<span class="text-xl font-bold tracking-tight">Stretch AI</span>
 			</div>
 		</div>
 		<div class="hidden md:flex items-center gap-8 text-[13px] font-medium text-gray-600">
-			<a href="#" class="hover:text-black transition-colors">Biomarkers</a>
+			<a href="#" class="hover:text-black transition-colors">Programs</a>
+			<a href="#" class="hover:text-black transition-colors">Science</a>
+			<a href="#" class="hover:text-black transition-colors">Pricing</a>
 			<a href="#" class="hover:text-black transition-colors">FAQ</a>
-			<a href="#" class="hover:text-black transition-colors">Blog</a>
-			<a href="#" class="hover:text-black transition-colors">Gift Holo</a>
-			<a href="#" class="bg-black text-white px-5 py-2 rounded text-[13px] font-medium hover:bg-gray-800 transition-colors">Join now</a>
+			<a href="#" class="bg-black text-white px-5 py-2 rounded text-[13px] font-medium hover:bg-gray-800 transition-colors">Start free trial</a>
 		</div>
 	</nav>
 
 	<!-- Hero Section -->
 	<section class="flex flex-col items-center pt-16 pb-20 px-4 text-center">
 		<h1 class="text-4xl md:text-[56px] leading-[1.1] font-medium tracking-tight max-w-3xl mb-6">
-			Your companion<br>for lifelong vitality.
+			Move better.<br>Perform longer.
 		</h1>
 		<p class="text-gray-500 text-[15px] max-w-xl mb-8 leading-relaxed">
-			Test 60+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+			Expert-led mobility and stretching programs designed for athletes, trainers, and anyone serious about longevity. Science-backed protocols that actually work.
 		</p>
 		<button class="bg-black text-white px-6 py-3 rounded text-[13px] font-medium hover:bg-gray-800 transition-colors mb-20">
-			Start testing
+			Start your free trial
 		</button>
 
 		<!-- Horizontal Scroll Images -->
@@ -73,27 +70,27 @@
 			<div class="flex gap-6 justify-center items-center h-[320px]">
 				<!-- Image 1 -->
 				<div class="w-[200px] h-[260px] rounded-[24px] overflow-hidden flex-shrink-0 relative group shadow-lg rotate-[-2deg] translate-y-4">
-					<img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=400&h=600&fit=crop" alt="Climbing" class="w-full h-full object-cover" />
+					<img src="/generated/image-person-doing-a-deep-hip-flexor-stretch-o-1766105488969-0.webp" alt="Hip flexor stretch" class="w-full h-full object-cover" />
 				</div>
 				<!-- Image 2 -->
 				<div class="w-[260px] h-[180px] rounded-[24px] overflow-hidden flex-shrink-0 relative group shadow-lg rotate-[1deg] -translate-y-2">
-					<img src="https://images.unsplash.com/photo-1502086223501-681a5812147d?w=400&h=300&fit=crop" alt="Bench" class="w-full h-full object-cover" />
+					<img src="/generated/image-athlete-performing-a-shoulder-mobility-e-1766105491074-1.webp" alt="Shoulder mobility" class="w-full h-full object-cover" />
 				</div>
 				<!-- Image 3 -->
 				<div class="w-[220px] h-[220px] rounded-[24px] overflow-hidden flex-shrink-0 relative group shadow-lg rotate-[-1deg] translate-y-2">
-					<img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=400&fit=crop" alt="Hiking" class="w-full h-full object-cover" />
+					<img src="/generated/image-person-doing-a-hamstring-stretch-outdoor-1766105493131-2.webp" alt="Hamstring stretch" class="w-full h-full object-cover" />
 				</div>
 				<!-- Image 4 -->
 				<div class="w-[200px] h-[200px] rounded-[24px] overflow-hidden flex-shrink-0 relative group shadow-lg rotate-[2deg] -translate-y-4">
-					<img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&h=400&fit=crop" alt="Running" class="w-full h-full object-cover" />
+					<img src="/generated/image-runner-doing-a-quad-stretch-before-train-1766105495307-3.webp" alt="Quad stretch" class="w-full h-full object-cover" />
 				</div>
 				<!-- Image 5 -->
 				<div class="w-[180px] h-[260px] rounded-[24px] overflow-hidden flex-shrink-0 relative group shadow-lg rotate-[-2deg] translate-y-6">
-					<img src="https://images.unsplash.com/photo-1551524164-687a55dd1126?w=400&h=600&fit=crop" alt="Snow" class="w-full h-full object-cover" />
+					<img src="/generated/image-person-doing-a-spinal-twist-stretch-on-t-1766105497640-4.webp" alt="Spinal twist" class="w-full h-full object-cover" />
 				</div>
 				<!-- Image 6 -->
 				<div class="w-[200px] h-[160px] rounded-[24px] overflow-hidden flex-shrink-0 relative group shadow-lg rotate-[1deg] -translate-y-2">
-					<img src="https://images.unsplash.com/photo-1596328616956-619f70d748d6?w=400&h=300&fit=crop" alt="Park" class="w-full h-full object-cover" />
+					<img src="/generated/image-athlete-performing-foam-rolling-for-reco-1766105499649-5.webp" alt="Foam rolling recovery" class="w-full h-full object-cover" />
 				</div>
 			</div>
 		</div>
@@ -108,22 +105,36 @@
 					<!-- Fake App UI -->
 					<div class="p-6 pt-10">
 						<div class="flex justify-between items-center mb-6">
-							<div class="text-xs font-bold">Good morning, Sarah</div>
+							<div class="text-xs font-bold">Today's Session</div>
 							<div class="w-6 h-6 bg-gray-200 rounded-full"></div>
 						</div>
-						<div class="flex justify-between gap-2 mb-8">
-							<div class="w-16 h-16 rounded-full border-4 border-red-400 flex items-center justify-center text-xs font-bold">25</div>
-							<div class="w-16 h-16 rounded-full border-4 border-green-400 flex items-center justify-center text-xs font-bold">53</div>
-							<div class="w-16 h-16 rounded-full border-4 border-blue-400 flex items-center justify-center text-xs font-bold">66</div>
-						</div>
-						<div class="bg-gray-50 p-4 rounded-xl mb-4">
-							<div class="text-[10px] text-gray-500 uppercase mb-1">Biological Age</div>
-							<div class="text-2xl font-bold">30 <span class="text-sm font-normal text-gray-500">years</span></div>
+						<div class="bg-gradient-to-br from-primary-500 to-primary-700 p-4 rounded-xl mb-4 text-white">
+							<div class="text-[10px] opacity-80 mb-1">MOBILITY PROTOCOL</div>
+							<div class="text-lg font-bold mb-2">Hip Flexor Series</div>
+							<div class="text-[10px] opacity-80">15 min • Intermediate</div>
 						</div>
 						<div class="space-y-3">
-							<div class="h-2 bg-gray-100 rounded full w-3/4"></div>
-							<div class="h-2 bg-gray-100 rounded full w-1/2"></div>
-							<div class="h-2 bg-gray-100 rounded full w-5/6"></div>
+							<div class="flex items-center gap-3">
+								<div class="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center text-[10px] font-bold text-green-600">✓</div>
+								<div class="flex-1">
+									<div class="text-[10px] font-medium">Warm-up Flow</div>
+									<div class="h-1 bg-green-100 rounded-full w-full mt-1"></div>
+								</div>
+							</div>
+							<div class="flex items-center gap-3">
+								<div class="w-8 h-8 rounded-lg bg-primary-100 flex items-center justify-center text-[10px] font-bold text-primary-600">2</div>
+								<div class="flex-1">
+									<div class="text-[10px] font-medium">Hip Flexor Stretch</div>
+									<div class="h-1 bg-gray-100 rounded-full w-full mt-1"></div>
+								</div>
+							</div>
+							<div class="flex items-center gap-3">
+								<div class="w-8 h-8 rounded-lg bg-gray-100 flex items-center justify-center text-[10px] font-bold text-gray-400">3</div>
+								<div class="flex-1">
+									<div class="text-[10px] font-medium text-gray-400">Cool Down</div>
+									<div class="h-1 bg-gray-100 rounded-full w-full mt-1"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<!-- Bottom Nav -->
@@ -139,16 +150,16 @@
 			<!-- Content -->
 			<div class="flex-1 max-w-lg">
 				<h2 class="text-3xl font-medium mb-6 leading-tight">
-					Your health at a glance.<br>
-					See your daily Strain, Recovery and Sleep goals.
-					Explore your biomarkers, understand what
-					they mean, and access your Clinician Notes,
-					including your Action Plan created after your test.
+					Your mobility journey, simplified.<br>
+					Follow expert-designed protocols, track your progress,
+					and see measurable improvements in range of motion.
+					Every session is structured, scientifically-backed,
+					and built to help you move better for life.
 				</h2>
 				<div class="flex items-center justify-between mt-12">
-					<a href="#" class="flex items-center gap-2 text-blue-600 text-sm font-medium hover:underline">
+					<a href="#" class="flex items-center gap-2 text-primary-600 text-sm font-medium hover:underline">
 						{@html PlayCircle}
-						Watch video
+						Watch demo
 					</a>
 					<div class="flex gap-4">
 						<button class="w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 hover:bg-gray-50 transition-colors">
@@ -167,36 +178,36 @@
 	<section class="py-20 px-6 md:px-12 max-w-[1400px] mx-auto w-full">
 		<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-10">
 			<h2 class="text-4xl md:text-5xl font-medium tracking-tight max-w-md leading-[1.1]">
-				You deserve to live fully, longer, and better.
+				Built for those who take performance seriously.
 			</h2>
 			<p class="text-gray-500 text-[15px] max-w-md leading-relaxed">
-				Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+				Whether you're an athlete, trainer, or fitness enthusiast, mobility is the foundation of longevity. Stretch AI gives you the structure, expertise, and consistency you need to move better, prevent injury, and perform at your peak.
 			</p>
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 			<!-- Card 1 -->
 			<div class="relative h-[480px] rounded-[32px] overflow-hidden group">
-				<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&h=800&fit=crop" alt="Woman smiling" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+				<img src="/generated/image-confident-female-athlete-in-her-30s-doin-1766105501646-6.webp" alt="Structured mobility routine" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
 				<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 text-white">
-					<h3 class="text-2xl font-medium mb-2">All your data. One place.</h3>
-					<p class="text-sm text-white/80 leading-relaxed">Holo takes into account your lifestyle and habits, your past results, and connects your wearables data.</p>
+					<h3 class="text-2xl font-medium mb-2">Expert-led protocols.</h3>
+					<p class="text-sm text-white/80 leading-relaxed">No guesswork. Follow structured programs designed by sports scientists and physical therapists.</p>
 				</div>
 			</div>
 			<!-- Card 2 -->
 			<div class="relative h-[480px] rounded-[32px] overflow-hidden group">
-				<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&h=800&fit=crop" alt="Man running" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+				<img src="/generated/image-male-athlete-tracking-progress-on-his-ph-1766105503901-7.webp" alt="Tracking progress" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
 				<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 text-white">
-					<h3 class="text-2xl font-medium mb-2">Better control over your performance.</h3>
-					<p class="text-sm text-white/80 leading-relaxed">Start thriving by tracking your daily strain, recovery and sleep.</p>
+					<h3 class="text-2xl font-medium mb-2">Track real progress.</h3>
+					<p class="text-sm text-white/80 leading-relaxed">Measure improvements in range of motion and see how consistency transforms your mobility.</p>
 				</div>
 			</div>
 			<!-- Card 3 -->
 			<div class="relative h-[480px] rounded-[32px] overflow-hidden group">
-				<img src="https://images.unsplash.com/photo-1529113247322-132d7844a497?w=600&h=800&fit=crop" alt="Family" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+				<img src="/generated/image-person-doing-recovery-stretches-in-a-pea-1766105506054-8.webp" alt="Recovery and longevity" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
 				<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8 text-white">
-					<h3 class="text-2xl font-medium mb-2">Proactive care.</h3>
-					<p class="text-sm text-white/80 leading-relaxed">Health is not only the absence of illness but having strength and vitality everyday.</p>
+					<h3 class="text-2xl font-medium mb-2">Prevent injury. Extend your career.</h3>
+					<p class="text-sm text-white/80 leading-relaxed">Mobility work isn't optional—it's essential for longevity and peak performance.</p>
 				</div>
 			</div>
 		</div>
@@ -206,13 +217,13 @@
 	<section class="py-24 px-6 text-center bg-[#F5F5F3]">
 		<div class="max-w-3xl mx-auto">
 			<blockquote class="text-2xl md:text-3xl font-medium leading-tight mb-10">
-				"I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+				"Stretch AI is what I've been recommending to my athletes for years—structured, evidence-based mobility work that actually delivers results. The protocols are clinically sound, and the platform makes it simple to stay consistent. This is the real deal."
 			</blockquote>
 			<div class="flex flex-col items-center gap-3">
-				<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+				<img src="/generated/image-professional-physical-therapist-or-sport-1766105508492-9.webp" alt="Physical Therapist" class="w-12 h-12 rounded-full object-cover" />
 				<div class="text-sm">
-					<div class="font-bold">Dra. Cocco Meradi</div>
-					<div class="text-gray-500">Functional Doctor</div>
+					<div class="font-bold">Dr. Marcus Chen, DPT</div>
+					<div class="text-gray-500">Sports Physical Therapist</div>
 				</div>
 			</div>
 		</div>
@@ -222,16 +233,16 @@
 	<section class="py-20 px-6 md:px-12 max-w-[1400px] mx-auto w-full border-b border-gray-200">
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
 			<div>
-				<h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-				<p class="text-sm text-gray-500 leading-relaxed">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+				<h3 class="text-xl font-medium mb-2">Sign up in 2 minutes.</h3>
+				<p class="text-sm text-gray-500 leading-relaxed">Create your account, answer a few questions about your goals, and get instant access to all programs.</p>
 			</div>
 			<div>
-				<h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-				<p class="text-sm text-gray-500 leading-relaxed">Your lab test data, fast. Complete results in five business days.</p>
+				<h3 class="text-xl font-medium mb-2">Start your first session.</h3>
+				<p class="text-sm text-gray-500 leading-relaxed">Follow expert-guided protocols designed for your level. Each session is clear, structured, and effective.</p>
 			</div>
 			<div>
-				<h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-				<p class="text-sm text-gray-500 leading-relaxed">From data to a clear Action Plan to guide you along your health path.</p>
+				<h3 class="text-xl font-medium mb-2">Track your progress.</h3>
+				<p class="text-sm text-gray-500 leading-relaxed">See measurable improvements in mobility and range of motion. Build consistency that lasts.</p>
 			</div>
 		</div>
 	</section>
@@ -243,7 +254,7 @@
 			<div class="lg:w-1/3 lg:sticky lg:top-24 h-fit">
 				<h2 class="text-4xl font-medium mb-6">How it works.</h2>
 				<p class="text-gray-500 text-[15px] leading-relaxed max-w-xs">
-					With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.
+					Stretch AI combines expert-designed protocols with intelligent tracking to deliver a complete mobility system. No guesswork, no generic routines—just proven methods that help you move better.
 				</p>
 			</div>
 
@@ -253,8 +264,8 @@
 				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
 					<div class="w-full max-w-md mb-10 text-left self-start">
 						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">1</div>
-						<h3 class="text-2xl font-medium mb-3">Chose the plan that fits you better.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Two options available. Set the Core plan with 60+ biomarkers to access the most advance lab test or choose the Starter plan to test 40+ essential biomarkers.</p>
+						<h3 class="text-2xl font-medium mb-3">Choose your program.</h3>
+						<p class="text-sm text-gray-500 leading-relaxed">Select from targeted programs for different goals—whether you're focused on recovery, performance, or injury prevention. All programs are designed by experts.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
 						<div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col">
@@ -263,17 +274,17 @@
                                 <div class="h-4 w-20 bg-gray-200 rounded mb-2"></div>
                             </div>
                             <div class="p-4 space-y-3">
-                                <div class="h-12 bg-green-50 rounded-lg border border-green-100 p-2">
-                                    <div class="h-2 w-12 bg-green-200 rounded mb-1"></div>
-                                    <div class="h-4 w-24 bg-green-300 rounded"></div>
+                                <div class="h-12 bg-primary-50 rounded-lg border border-primary-100 p-2">
+                                    <div class="h-2 w-16 bg-primary-200 rounded mb-1"></div>
+                                    <div class="h-4 w-28 bg-primary-300 rounded"></div>
                                 </div>
                                 <div class="h-12 bg-white rounded-lg border border-gray-100 p-2">
-                                    <div class="h-2 w-12 bg-gray-200 rounded mb-1"></div>
-                                    <div class="h-4 w-24 bg-gray-300 rounded"></div>
+                                    <div class="h-2 w-16 bg-gray-200 rounded mb-1"></div>
+                                    <div class="h-4 w-28 bg-gray-300 rounded"></div>
                                 </div>
                                 <div class="h-12 bg-white rounded-lg border border-gray-100 p-2">
-                                    <div class="h-2 w-12 bg-gray-200 rounded mb-1"></div>
-                                    <div class="h-4 w-24 bg-gray-300 rounded"></div>
+                                    <div class="h-2 w-16 bg-gray-200 rounded mb-1"></div>
+                                    <div class="h-4 w-28 bg-gray-300 rounded"></div>
                                 </div>
                             </div>
                         </div>
@@ -284,14 +295,17 @@
 				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
 					<div class="w-full max-w-md mb-10 text-left self-start">
 						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">2</div>
-						<h3 class="text-2xl font-medium mb-3">Schedule your appointment.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Choose the most convenient lab location for you and follow the instructions before the test.</p>
+						<h3 class="text-2xl font-medium mb-3">Follow guided sessions.</h3>
+						<p class="text-sm text-gray-500 leading-relaxed">Each session provides clear video instruction and real-time guidance. Know exactly what to do, how long to hold, and when to progress.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col items-center pt-8">
-                            <div class="text-sm font-bold mb-4">Appointment</div>
-                            <div class="w-16 h-16 bg-gray-100 rounded-full mb-4"></div>
-                            <div class="text-xs text-gray-500 px-8 text-center">Schedule your visit at a nearby lab.</div>
+                            <div class="text-sm font-bold mb-4">Today's Session</div>
+                            <div class="w-32 h-32 bg-gray-100 rounded-2xl mb-4 flex items-center justify-center">
+                                <div class="w-0 h-0 border-l-[16px] border-l-black border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1"></div>
+                            </div>
+                            <div class="text-xs text-gray-500 px-8 text-center">Hip Mobility Protocol</div>
+                            <div class="text-xs text-gray-400 px-8 text-center mt-1">15 minutes</div>
                             <div class="mt-auto w-full p-4">
                                 <div class="w-full h-10 bg-black rounded-lg"></div>
                             </div>
@@ -303,21 +317,37 @@
 				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
 					<div class="w-full max-w-md mb-10 text-left self-start">
 						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">3</div>
-						<h3 class="text-2xl font-medium mb-3">Receive first results.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.</p>
+						<h3 class="text-2xl font-medium mb-3">Track your improvements.</h3>
+						<p class="text-sm text-gray-500 leading-relaxed">See measurable progress in range of motion and mobility scores. The platform tracks your consistency and shows how you're improving over time.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-gray-900 rounded-[28px] overflow-hidden relative text-white p-6 pt-10">
                              <div class="flex items-center gap-3 mb-6">
                                  <div class="w-10 h-10 rounded-full bg-gray-700"></div>
                                  <div>
-                                     <div class="text-sm font-bold">Grace Parker</div>
-                                     <div class="text-[10px] text-gray-400">Bio Age: 28</div>
+                                     <div class="text-sm font-bold">Your Progress</div>
+                                     <div class="text-[10px] text-gray-400">Week 4</div>
                                  </div>
                              </div>
                              <div class="space-y-2">
-                                 <div class="h-20 bg-gray-800 rounded-xl"></div>
-                                 <div class="h-20 bg-gray-800 rounded-xl"></div>
+                                 <div class="h-20 bg-gray-800 rounded-xl p-3">
+                                     <div class="text-[10px] text-gray-400 mb-1">Hip Mobility</div>
+                                     <div class="flex items-center gap-2">
+                                         <div class="flex-1 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                             <div class="h-full bg-primary-500 w-3/4"></div>
+                                         </div>
+                                         <div class="text-xs">+12%</div>
+                                     </div>
+                                 </div>
+                                 <div class="h-20 bg-gray-800 rounded-xl p-3">
+                                     <div class="text-[10px] text-gray-400 mb-1">Shoulder ROM</div>
+                                     <div class="flex items-center gap-2">
+                                         <div class="flex-1 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                             <div class="h-full bg-primary-500 w-2/3"></div>
+                                         </div>
+                                         <div class="text-xs">+8%</div>
+                                     </div>
+                                 </div>
                              </div>
                         </div>
 					</div>
@@ -327,16 +357,16 @@
 				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
 					<div class="w-full max-w-md mb-10 text-left self-start">
 						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">4</div>
-						<h3 class="text-2xl font-medium mb-3">Your Clinician Notes are ready.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Receive your Clinician Notes and personalized Action Plan within 7 days from your results.</p>
+						<h3 class="text-2xl font-medium mb-3">Get personalized insights.</h3>
+						<p class="text-sm text-gray-500 leading-relaxed">Receive expert guidance on areas to focus on, modifications for your body, and recommendations to accelerate your progress.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col pt-8 px-4">
-                            <div class="text-center text-sm font-bold mb-4">Clinician Notes</div>
+                            <div class="text-center text-sm font-bold mb-4">Insights</div>
                             <div class="text-[10px] text-gray-500 leading-relaxed text-justify">
-                                You already make smart choices for your health through regular exercise, reduced unhealthy fats and sugars, and limiting sleep disruptors.
+                                Your hip mobility has improved significantly over the past 3 weeks. Consider adding the Advanced Hip Protocol to continue this momentum.
                                 <br><br>
-                                Since your diet lacks enough fruits and vegetables, adding more could strengthen long-term health...
+                                Your shoulder range of motion shows asymmetry. Focus on the Shoulder Stability series to address this imbalance...
                             </div>
                         </div>
 					</div>
@@ -346,16 +376,16 @@
 				<div class="bg-white rounded-[32px] p-10 md:p-16 flex flex-col items-center text-center shadow-sm">
 					<div class="w-full max-w-md mb-10 text-left self-start">
 						<div class="w-8 h-8 rounded border border-gray-200 flex items-center justify-center text-xs font-medium mb-6">5</div>
-						<h3 class="text-2xl font-medium mb-3">Start improving.</h3>
-						<p class="text-sm text-gray-500 leading-relaxed">Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the follow-up test.</p>
+						<h3 class="text-2xl font-medium mb-3">Build lasting habits.</h3>
+						<p class="text-sm text-gray-500 leading-relaxed">Consistency is key. The platform helps you build a sustainable mobility practice that becomes part of your routine, not another thing to stress about.</p>
 					</div>
 					<div class="w-[240px] h-[480px] bg-black rounded-[36px] p-2 shadow-xl border-4 border-gray-100">
                         <div class="w-full h-full bg-white rounded-[28px] overflow-hidden relative flex flex-col pt-8 px-4">
                              <div class="bg-gray-100 p-3 rounded-lg text-[10px] mb-2">
-                                 What benefit do I get by keeping ApoB down in the optimal range?
+                                 Why is consistency more important than intensity?
                              </div>
                              <div class="text-[10px] text-gray-500 leading-relaxed mt-2">
-                                 By lowering ApoB, you've reduced the number of cholesterol-carrying particles in your bloodstream...
+                                 Mobility improvements come from regular, progressive work—not occasional intense sessions. Your nervous system adapts through repetition and consistency...
                              </div>
                         </div>
 					</div>
@@ -370,31 +400,31 @@
 			<!-- Left Card -->
 			<div class="bg-[#111] rounded-[32px] p-10 md:p-12 text-white min-h-[400px] flex flex-col relative overflow-hidden">
 				<div class="relative z-10">
-					<div class="text-xs text-gray-400 mb-2">A five star experience.</div>
-					<h3 class="text-2xl font-medium max-w-xs">We partner exclusively with renowned labs.</h3>
+					<div class="text-xs text-gray-400 mb-2">Evidence-based approach.</div>
+					<h3 class="text-2xl font-medium max-w-xs">Designed by sports scientists and physical therapists.</h3>
 				</div>
-				<!-- Map Graphic Placeholder -->
+				<!-- Abstract mobility graphic -->
 				<div class="absolute bottom-0 right-0 w-full h-64 opacity-20">
-                    <!-- Simple dot map simulation with SVG -->
                     <svg viewBox="0 0 200 100" class="w-full h-full">
-                        {#each Array(100) as _, i}
-                            <circle cx={Math.random() * 200} cy={Math.random() * 100} r="1" fill="white" />
-                        {/each}
+                        <path d="M20,80 Q50,20 80,50 T140,40" stroke="white" stroke-width="2" fill="none" />
+                        <path d="M30,70 Q60,30 90,60 T150,50" stroke="white" stroke-width="2" fill="none" />
+                        <circle cx="80" cy="50" r="3" fill="white" />
+                        <circle cx="140" cy="40" r="3" fill="white" />
                     </svg>
 				</div>
 			</div>
 			<!-- Right Card -->
 			<div class="bg-[#111] rounded-[32px] p-10 md:p-12 text-white min-h-[400px] flex flex-col relative overflow-hidden">
 				<div class="relative z-10">
-					<div class="text-xs text-gray-400 mb-2">Your data is safe with us.</div>
-					<h3 class="text-2xl font-medium max-w-xs">We're built to protect your privacy by default.</h3>
+					<div class="text-xs text-gray-400 mb-2">Your data is secure.</div>
+					<h3 class="text-2xl font-medium max-w-xs">Privacy-first platform built for professionals.</h3>
 				</div>
-				<!-- Blurred Text Graphic -->
+				<!-- Encrypted data visual -->
 				<div class="absolute bottom-8 right-8 text-right font-mono text-3xl opacity-30 blur-[2px] select-none pointer-events-none">
-					<div>Elizab|%b$9yT</div>
-					<div>Willi|I7m/@</div>
-					<div>Magn|&5a!</div>
-					<div>Trigly|?Pm_Lw</div>
+					<div>Progr|%s$9yT</div>
+					<div>Mobil|I7y/@</div>
+					<div>Range|&5a!</div>
+					<div>Flexib|?Pm_Lw</div>
 				</div>
 			</div>
 		</div>
@@ -402,71 +432,71 @@
 
 	<!-- Pricing Section -->
 	<section class="py-24 px-6 md:px-12 max-w-[1400px] mx-auto w-full text-center">
-		<h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
+		<h2 class="text-3xl md:text-4xl font-medium mb-4">Invest in your mobility.</h2>
 		<p class="text-gray-500 text-sm max-w-lg mx-auto mb-16">
-			Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.
+			Expert-designed programs, intelligent tracking, and personalized guidance—all in one platform. Choose the plan that fits your goals.
 		</p>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-			<!-- Starter Plan -->
+			<!-- Monthly Plan -->
 			<div class="bg-white rounded-[32px] p-8 text-left flex flex-col shadow-sm">
 				<div class="w-10 h-10 bg-gray-100 rounded-lg mb-6"></div>
-				<h3 class="text-xl font-bold mb-1">Starter</h3>
-				<p class="text-xs text-gray-500 mb-6">Begin your health journey.</p>
+				<h3 class="text-xl font-bold mb-1">Monthly</h3>
+				<p class="text-xs text-gray-500 mb-6">Try it out, cancel anytime.</p>
 				
 				<div class="flex items-baseline gap-1 mb-1">
-					<span class="text-2xl font-bold">€199</span>
-					<span class="text-xs text-gray-500">/yr</span>
+					<span class="text-2xl font-bold">$29</span>
+					<span class="text-xs text-gray-500">/month</span>
 				</div>
-				<div class="text-[10px] text-gray-400 mb-8">Pay in installments with Klarna. <span class="bg-pink-100 text-pink-600 px-1 rounded">Klarna.</span></div>
+				<div class="text-[10px] text-gray-400 mb-8">First month free with code MOVE30</div>
 
 				<ul class="space-y-4 mb-8 flex-1">
 					<li class="flex gap-3 text-xs text-gray-600">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
-						Two tests a year covering 40+ essential biomarkers.
+						Access to all mobility and stretching programs
 					</li>
 					<li class="flex gap-3 text-xs text-gray-600">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
-						Measure your Biological Age and Aging Rate with every test.
+						Progress tracking and mobility assessments
 					</li>
 					<li class="flex gap-3 text-xs text-gray-600">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
-						Clinician Notes and personalized Action Plan to guide your health.
+						Expert video instruction for every movement
 					</li>
 				</ul>
 
-				<button class="w-full bg-black text-white py-3 rounded-lg text-xs font-bold hover:bg-gray-800 transition-colors">Join now</button>
+				<button class="w-full bg-black text-white py-3 rounded-lg text-xs font-bold hover:bg-gray-800 transition-colors">Start free trial</button>
 			</div>
 
-			<!-- Core Plan -->
-			<div class="bg-white rounded-[32px] p-8 text-left flex flex-col shadow-sm border-2 border-orange-100 relative overflow-hidden">
-                <div class="absolute top-0 right-0 bg-orange-100 text-orange-600 text-[10px] font-bold px-3 py-1 rounded-bl-xl">POPULAR</div>
-				<div class="w-10 h-10 bg-orange-50 rounded-lg mb-6"></div>
-				<h3 class="text-xl font-bold mb-1">Core</h3>
-				<p class="text-xs text-gray-500 mb-6">The most advanced longevity membership.</p>
+			<!-- Annual Plan -->
+			<div class="bg-white rounded-[32px] p-8 text-left flex flex-col shadow-sm border-2 border-primary-100 relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-primary-100 text-primary-700 text-[10px] font-bold px-3 py-1 rounded-bl-xl">BEST VALUE</div>
+				<div class="w-10 h-10 bg-primary-50 rounded-lg mb-6"></div>
+				<h3 class="text-xl font-bold mb-1">Annual</h3>
+				<p class="text-xs text-gray-500 mb-6">Save 40% with annual billing.</p>
 				
 				<div class="flex items-baseline gap-1 mb-1">
-					<span class="text-2xl font-bold">€399</span>
-					<span class="text-xs text-gray-500">/yr</span>
+					<span class="text-2xl font-bold">$199</span>
+					<span class="text-xs text-gray-500">/year</span>
 				</div>
-				<div class="text-[10px] text-gray-400 mb-8">Pay in installments with Klarna. <span class="bg-pink-100 text-pink-600 px-1 rounded">Klarna.</span></div>
+				<div class="text-[10px] text-gray-400 mb-8">Just $16.58/month — save $149 annually</div>
 
 				<ul class="space-y-4 mb-8 flex-1">
 					<li class="flex gap-3 text-xs text-gray-600">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
-						Full Core Test of 60+ Biomarkers plus a follow-up with 40+ biomarkers to track change.
+						Everything in Monthly, plus priority support
 					</li>
 					<li class="flex gap-3 text-xs text-gray-600">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
-						First test includes an extended hormonal and Vitamin panel for deeper insights.
+						Early access to new programs and features
 					</li>
 					<li class="flex gap-3 text-xs text-gray-600">
 						<span class="text-green-500 shrink-0">{@html Check}</span>
-						Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+						Personalized program recommendations and insights
 					</li>
 				</ul>
 
-				<button class="w-full bg-black text-white py-3 rounded-lg text-xs font-bold hover:bg-gray-800 transition-colors">Join now</button>
+				<button class="w-full bg-black text-white py-3 rounded-lg text-xs font-bold hover:bg-gray-800 transition-colors">Start free trial</button>
 			</div>
 		</div>
 	</section>
@@ -484,8 +514,18 @@
 					<span class="text-gray-400 transition-transform duration-200 {faq.open ? 'rotate-45' : ''}">{@html Plus}</span>
 				</button>
                 {#if faq.open}
-                    <div class="px-4 pb-4 text-xs text-gray-500">
-                        Placeholder answer for "{faq.question}". This would contain detailed information about the service.
+                    <div class="px-4 pb-4 text-xs text-gray-500 leading-relaxed">
+                        {#if i === 0}
+                            Stretch AI combines expert-designed protocols with intelligent tracking and personalized guidance. Unlike generic stretching apps, our programs are created by sports scientists and physical therapists, backed by research, and structured to deliver measurable results.
+                        {:else if i === 1}
+                            Most programs require no equipment at all. Some advanced protocols may use optional tools like resistance bands or foam rollers, but these are never required to get started.
+                        {:else if i === 2}
+                            Sessions range from 10-30 minutes depending on the program. We believe in consistency over intensity—short, focused sessions that fit into your routine are more effective than occasional long workouts.
+                        {:else if i === 3}
+                            Absolutely. Every program includes modifications for different experience levels. Our guided instruction ensures you understand proper form and progression, making it safe and effective for beginners.
+                        {:else if i === 4}
+                            While our programs are designed to prevent injury and support recovery, we always recommend consulting with your healthcare provider before starting any new movement program if you have an existing injury.
+                        {/if}
                     </div>
                 {/if}
 			{/each}
@@ -501,19 +541,17 @@
 	<footer class="bg-[#F5F5F3] py-16 px-6 md:px-12 text-[11px] text-gray-500">
 		<div class="max-w-[1400px] mx-auto">
 			<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-8">
-				<div class="flex items-center gap-2">
-					<div class="grid grid-cols-2 gap-[2px]">
-						<div class="w-1 h-1 bg-black rounded-full"></div>
-						<div class="w-1 h-1 bg-black rounded-full"></div>
-						<div class="w-1 h-1 bg-black rounded-full"></div>
-						<div class="w-1 h-1 bg-black rounded-full"></div>
-					</div>
-					<span class="text-lg font-bold tracking-tight text-black">HOLO</span>
+				<div class="flex items-center gap-3">
+					<svg width="40" height="16" viewBox="0 0 1787 726" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1059 726H0L195.537 531H1254.54L1059 726ZM1326.74 459H267.735L463.272 264H1522.27L1326.74 459ZM1591.46 195H532.463L728 0H1787L1591.46 195Z" fill="black"/>
+					</svg>
+					<span class="text-lg font-bold tracking-tight text-black">Stretch AI</span>
 				</div>
 				<div class="flex flex-wrap gap-6 font-medium text-gray-600">
-					<a href="#" class="hover:text-black">Biomarkers</a>
+					<a href="#" class="hover:text-black">Programs</a>
+					<a href="#" class="hover:text-black">Science</a>
+					<a href="#" class="hover:text-black">Pricing</a>
 					<a href="#" class="hover:text-black">FAQ</a>
-					<a href="#" class="hover:text-black">Blog</a>
 					<a href="#" class="hover:text-black">Terms & Conditions</a>
 					<a href="#" class="hover:text-black">Privacy Policy</a>
 				</div>
@@ -525,9 +563,9 @@
 			</div>
 			
 			<div class="space-y-4 leading-relaxed opacity-60">
-				<p>Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing, terms and conditions. Access to certain providers, if does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. Its services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-				<p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some items and services require additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-				<p>By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+				<p>Stretch AI is a digital platform providing mobility and stretching guidance. Our programs are designed by qualified professionals but do not constitute medical advice, diagnosis, or treatment. Always consult with a healthcare provider before starting any new exercise program, especially if you have existing injuries or medical conditions.</p>
+				<p>Results may vary based on individual commitment, consistency, and physical condition. The testimonials and progress examples shown represent individual experiences and are not guarantees of specific results.</p>
+				<p>By subscribing, you agree to our Terms & Conditions and Privacy Policy. You can cancel your subscription at any time. Message and data rates may apply for SMS notifications.</p>
 			</div>
 		</div>
 	</footer>
